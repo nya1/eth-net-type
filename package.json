@@ -1,0 +1,38 @@
+{
+  "name": "eth-net-type",
+  "version": "0.1.2",
+  "description": "Get infos about your current ethereum network",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec test"
+  },
+  "author": "nya1",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nya1/eth-net-type.git"
+  },
+  "keywords": [
+    "ethereum",
+    "eth",
+    "network",
+    "chain",
+    "type",
+    "discover",
+    "network type",
+    "chain type",
+    "ethereum network",
+    "ethereum chain",
+    "chain network",
+    "blockhash",
+    "block",
+    "genesis",
+    "network id"
+  ],
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2",
+    "standard": "*"
+  }
+}
