@@ -1,6 +1,6 @@
 {
   "name": "eth-net-type",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Get infos about your current ethereum network",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,13 @@
     "blockhash",
     "block",
     "genesis",
-    "network id"
+    "network id",
+    "mainnet",
+    "testnet",
+    "kovan",
+    "ropsten",
+    "rinkeby",
+    "morden"
   ],
   "devDependencies": {
     "chai": "^4.0.1",

@@ -1,5 +1,7 @@
 ### eth-net-type
 
+[![npm version](https://badge.fury.io/js/eth-net-type.svg)](https://badge.fury.io/js/eth-net-type)
+
 Get infos about your current network type, supported networks so far: mainnet, morden, ropsten, kovan, rinkeby.
 
 ```
