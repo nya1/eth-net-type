@@ -1,6 +1,7 @@
 ### eth-net-type
 
-[![npm version](https://badge.fury.io/js/eth-net-type.svg)](https://badge.fury.io/js/eth-net-type)
+[![npm version](https://badge.fury.io/js/eth-net-type.svg)](https://badge.fury.io/js/eth-net-type) [![Build Status](https://travis-ci.org/nya1/eth-net-type.svg?branch=master)](https://travis-ci.org/nya1/eth-net-type)
+
 
 Get infos about your current network type, supported networks so far: mainnet, morden, ropsten, kovan, rinkeby.
 
@@ -46,7 +47,7 @@ Get network type by the network id number.
 
 ### TESTS
 
-Unit tests (chai+mocha) are included in `test/generic.js`
+Unit tests (chai+mocha) are included in `test/general.js`
 
 ```
 npm run test
