@@ -9,13 +9,16 @@ Get infos about your current network type, supported networks so far: mainnet, m
 npm install eth-net-type --save
 ```
 
+**Note:** Supported Node.js 4.0.0 and above
+
+
 ```
 	const ethNetType = require('eth-net-type')
 	ethNetType.guess(myWeb3Instance.eth.getBlock(0))
 
 	// returns (kovan example):
 	{
-		'match': true,
+	    'match': true,
 	    'block_hash': '0xa3c565fc15c7478862d50ccd6561e3c06b24cc509bf388941c25ea985ce32cb9',
 	    'network_id': 42,
 	    'name': 'kovan',
@@ -23,6 +26,7 @@ npm install eth-net-type --save
 	    'start_date': 1488459412
 	}
 ```
+
 
 ### API
 
@@ -43,6 +47,9 @@ ethNetType.getByNetId(<Number>)
 ```
 
 Get network type by the network id number.
+
+
+All methods return a `match` parameter, true if there is a match otherwise false.
 
 
 ### TESTS

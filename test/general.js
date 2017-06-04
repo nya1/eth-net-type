@@ -37,7 +37,8 @@ const objParamCheck = [
   'start_date'
 ]
 
-function checkReturnedObj (ogObj, returnObj, isDefined = true) {
+function checkReturnedObj (ogObj, returnObj, negativeFlag) {
+  var isDefined = typeof negativeFlag === 'undefined' ? true : negativeFlag
   for (var i = objParamCheck.length - 1; i >= 0; i--) {
     if (isDefined) {
       assert.isDefined(returnObj[objParamCheck[i]])
